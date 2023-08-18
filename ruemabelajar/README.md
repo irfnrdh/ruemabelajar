@@ -1,2 +1,0 @@
-# ruemabelajar
-Belajar!

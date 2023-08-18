@@ -7,29 +7,35 @@ export default defineConfig({
 		starlight({
 			title: 'Ruema Belajar',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/ruemakarya/',
 			},
 			sidebar: [
+				{ label: 'Mulai Belajar', link: '/mulai-belajar' },
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/', 
-							items:[
-							{
-								label: 'Guides',
-								items: [
-									// Each item here is one entry in the navigation menu.
-									{ label: 'Example Guide', link: '/guides/example/' },
-								],
-							},
-						] },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
+						label: 'Ilmu Komputer',
+						collapsed: true,
+						autogenerate: { directory: 'komputer' },
+				}
+				// {
+				// 	label: 'Topik',
+				// 	items: [
+				// 		// Each item here is one entry in the navigation menu.
+				// 		{ label: 'Cyber Security', link: '/guides/example/', },
+				// 	],
+				// },
+				// {
+				// 	label: 'Topik',
+				// 	collapsed: true,
+				// 	items: [
+				// 		// Each item here is one entry in the navigation menu.
+				// 		{ label: 'Cyber Security', link: '/guides/example/', },
+				// 	],
+				// },
+				// {
+				// 	label: 'Reference',
+				// 	collapsed: true,
+				// 	autogenerate: { directory: 'reference' },
+				// },
 			],
 		}),
 	],
