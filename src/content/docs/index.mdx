@@ -15,12 +15,40 @@ hero:
     - text: Ikut kontribusi
       link: /kontribusi
       icon: external
+
+
 ---
 
 import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+import subjectsData from '../../data/subjects.json';
 
 ## Koleksi Topik
 
+{subjectsData.map((card, cardIndex) => (
+  <Card key={cardIndex} title={card.title}>
+    {card.subjects.map((subject, subjectIndex) => (
+      <>
+        {subjectIndex > 0 && ' | '}
+        <a key={subjectIndex} href={subject.link}>
+          {subject.title}
+        </a>
+      </>
+    ))}
+  </Card>
+))}
+
+
+{/* {subjectsData.map((card, cardIndex) => (
+  <Card key={cardIndex} title={card.title}>
+    {card.subjects.map((subject, subjectIndex) => (
+      <a key={subjectIndex} href={subject.link}>
+        {subject.title}
+      </a> 
+    ))}
+  </Card>
+))} */}
+
+{/* 
 <CardGrid >
 	<Card title="Ilmu Komputer">
 		[Algoritma & Struktur Data](#) | [Linux](#) | [Arduino]() | [Kecerdasan Buatan]() | [ChatGPT]() | [Komputer Grafis]() | [Komputer Vision]() | [Kriptografi]() | [Dasar Pemrograman]() | [Sistem Digital]() | [Sistem Operasi]() | [Sistem Interaksi]() | [Basis Data]() | [Teori Bahasa & Automata]() | [Jaringan Komputer]() | [Rekayasa Perangkat Lunak]() | [Sistem Tertanam dan Robotika]() | [Arsitektur Enterprise]() | [Kecerdasan Komputasional]()
@@ -41,6 +69,7 @@ import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 	<Card title="Ilmu Data">
 	</Card>
 	<Card title="Pemrograman">
+	[PHP]() | [Python]()
 	</Card>
 	<Card title="Teknik">
 	[AutoCAD]() | [CNC]() | [Teknik Kimia]() | [Teknik Sipil]() | [Teknik Elektro]() | [Sistem Tertanam]() | [GIS]() | [Teknik Mesin]() | [Manufaktur]() | [Mikrokontroller]()
@@ -59,10 +88,11 @@ import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 	<Card title="Konferensi">
 	</Card>
 	<Card title="Pendidikan Islam">
+	[Al-Qur'an]() | [Ilmu Tauhid]() | [Ilmu Hadis]() | [Bahasa Arab]() | [Sejarah Peradaban Islam]() | [Ushul Fiqih]() 
 	</Card>
 	<Card title="Sertifikasi">
 	</Card>
 	<Card title="Tes Preparasi Ujian">
 	[TOEFL]() | [CPNS]() 
 	</Card>
-</CardGrid>
+</CardGrid> */}

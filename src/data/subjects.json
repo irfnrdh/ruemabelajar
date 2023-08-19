@@ -1,0 +1,167 @@
+[
+  {
+    "title": "Ilmu Komputer",
+    "subjects": [
+      { "title": "Algoritma & Struktur Data", "link": "#" },
+      { "title": "Linux", "link": "#" },
+      { "title": "Arduino", "link": "#" },
+      { "title": "Kecerdasan Buatan", "link": "#" },
+      { "title": "ChatGPT", "link": "#" },
+      { "title": "Komputer Grafis", "link": "#" },
+      { "title": "Komputer Vision", "link": "#" },
+      { "title": "Kriptografi", "link": "#" },
+      { "title": "Dasar Pemrograman", "link": "#" },
+      { "title": "Sistem Digital", "link": "#" },
+      { "title": "Sistem Operasi", "link": "#" },
+      { "title": "Sistem Interaksi", "link": "#" },
+      { "title": "Basis Data", "link": "#" },
+      { "title": "Teori Bahasa & Automata", "link": "#" },
+      { "title": "Jaringan Komputer", "link": "#" },
+      { "title": "Rekayasa Perangkat Lunak", "link": "#" },
+      { "title": "Sistem Tertanam dan Robotika", "link": "#" },
+      { "title": "Arsitektur Enterprise", "link": "#" },
+      { "title": "Kecerdasan Komputasional", "link": "#" }
+    ]
+  },
+  {
+    "title": "Pengembangan Diri",
+    "subjects": [
+      { "title": "Pengembangan Karir", "link": "#" },
+      { "title": "Skil Komunikasi", "link": "#" },
+      { "title": "Media Literasi", "link": "#" },
+      { "title": "Produktivitas", "link": "#" },
+      { "title": "Negosiasi", "link": "#" },
+      { "title": "Critical Thinking", "link": "#" },
+      { "title": "Skil Presentasi", "link": "#" },
+      { "title": "Public Speaking", "link": "#" },
+      { "title": "Remote Work", "link": "#" },
+      { "title": "Self Improvment", "link": "#" },
+      { "title": "Teamwork", "link": "#" },
+      { "title": "Softskill", "link": "#" },
+      { "title": "Bercerita", "link": "#" },
+      { "title": "Manajemen Waktu", "link": "#" },
+      { "title": "Penelitian", "link": "#" }
+    ]
+  },
+  {
+    "title": "Bisnis",
+    "subjects": [
+      { "title": "Akutansi", "link": "#" },
+      { "title": "Periklanan", "link": "#" },
+      { "title": "Affiliate Marketing", "link": "#" },
+      { "title": "Blogging", "link": "#" },
+      { "title": "Branding", "link": "#" },
+      { "title": "Pengembangan Bisnis", "link": "#" },
+      { "title": "Konten Marketing", "link": "#" },
+      { "title": "Digital Marketing", "link": "#" },
+      { "title": "Business Intelligence", "link": "#" },
+      { "title": "Business Software", "link": "#" },
+      { "title": "Start-Up", "link": "#" },
+      { "title": "Cryptocurrency", "link": "#" },
+      { "title": "CRM", "link": "#" },
+      { "title": "ERP", "link": "#" },
+      { "title": "Email Marketing", "link": "#" },
+      { "title": "Dropshipping", "link": "#" },
+      { "title": "Digital Transformation", "link": "#" },
+      { "title": "Inovasi", "link": "#" },
+      { "title": "Analisis Pasar", "link": "#" }
+    ]
+  },
+  {
+    "title": "Desain & Seni",
+    "subjects": [
+      { "title": "Desain 3D", "link": "#" },
+      { "title": "Printer Cetak 3D", "link": "#" },
+      { "title": "Ableton Live", "link": "#" },
+      { "title": "Adobe Photoshop", "link": "#" },
+      { "title": "Canva", "link": "#" },
+      { "title": "Animasi", "link": "#" },
+      { "title": "Arsitektur", "link": "#" },
+      { "title": "Blender", "link": "#" }
+    ]
+  },
+  {
+    "title": "Humaniora",
+    "subjects": [
+      { "title": "Aksen", "link": "#" },
+      { "title": "Sejarah Indonesia", "link": "#" },
+      { "title": "Bahasa Indonesia", "link": "#" }
+    ]
+  },
+  {
+    "title": "Ilmu Data",
+    "subjects": []
+  },
+  {
+    "title": "Pemrograman",
+    "subjects": [
+      { "title": "PHP", "link": "#" },
+      { "title": "Python", "link": "#" }
+    ]
+  },
+  {
+    "title": "Teknik",
+    "subjects": [
+      { "title": "AutoCAD", "link": "#" },
+      { "title": "CNC", "link": "#" },
+      { "title": "Teknik Kimia", "link": "#" },
+      { "title": "Teknik Sipil", "link": "#" },
+      { "title": "Teknik Elektro", "link": "#" },
+      { "title": "Sistem Tertanam", "link": "#" },
+      { "title": "GIS", "link": "#" },
+      { "title": "Teknik Mesin", "link": "#" },
+      { "title": "Manufaktur", "link": "#" },
+      { "title": "Mikrokontroller", "link": "#" }
+    ]
+  },
+  {
+    "title": "Matematika",
+    "subjects": []
+  },
+  {
+    "title": "Ilmu Sosial",
+    "subjects": []
+  },
+  {
+    "title": "Ilmu Pengetahuan",
+    "subjects": [
+      { "title": "Astronomi", "link": "#" },
+      { "title": "Agrikultural", "link": "#" },
+      { "title": "Biologi", "link": "#" }
+    ]
+  },
+  {
+    "title": "Pendidikan & Pengajaran",
+    "subjects": []
+  },
+  {
+    "title": "Keamanan Informasi",
+    "subjects": []
+  },
+  {
+    "title": "Konferensi",
+    "subjects": []
+  },
+  {
+    "title": "Pendidikan Islam",
+    "subjects": [
+      { "title": "Al-Qur'an", "link": "#" },
+      { "title": "Ilmu Tauhid", "link": "#" },
+      { "title": "Ilmu Hadis", "link": "#" },
+      { "title": "Bahasa Arab", "link": "#" },
+      { "title": "Sejarah Peradaban Islam", "link": "#" },
+      { "title": "Ushul Fiqih", "link": "#" }
+    ]
+  },
+  {
+    "title": "Sertifikasi",
+    "subjects": []
+  },
+  {
+    "title": "Tes Preparasi Ujian",
+    "subjects": [
+      { "title": "TOEFL", "link": "#" },
+      { "title": "CPNS", "link": "#" }
+    ]
+  }
+]
