@@ -1,5 +1,5 @@
 ---
-title: Instalasi Laravel
+title: Pengenalan Komputer
 description: A reference page in my new Starlight docs site.
 ---
 

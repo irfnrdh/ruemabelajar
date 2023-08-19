@@ -11,11 +11,12 @@ export default defineConfig({
 			},
 			sidebar: [
 				{ label: 'Mulai Belajar', link: '/mulai-belajar' },
+				{ label: 'Topik Belajar', link: '/topik-belajar' },
 				{
 						label: 'Ilmu Komputer',
 						collapsed: true,
 						autogenerate: { directory: 'komputer' },
-				}
+				},
 				// {
 				// 	label: 'Topik',
 				// 	items: [
@@ -36,6 +37,8 @@ export default defineConfig({
 				// 	collapsed: true,
 				// 	autogenerate: { directory: 'reference' },
 				// },
+
+				{ label: 'Kontribusi', link: '/kontribusi' },
 			],
 		}),
 	],
