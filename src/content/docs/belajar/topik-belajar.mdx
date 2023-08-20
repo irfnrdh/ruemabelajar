@@ -1,0 +1,38 @@
+---
+title: Topik Belajar
+description: Kenapa kita harus belajar, walaupun tak lagi sekolah.
+---
+
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+import subjectsData from '../../../data/subjects.json';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+<Tabs>
+	<TabItem label="Topik">
+	
+	</TabItem>
+	<TabItem label="Semua Katagori">
+	
+:::caution[Work in progress]
+Beberapa topik masih belum tersedia dan dalam pengerjaan
+:::
+
+{subjectsData.map((card, cardIndex) => (
+  <Card key={cardIndex} title={card.title}>
+    {card.subjects.map((subject, subjectIndex) => (
+      <>
+        {subjectIndex > 0 && ' | '}
+        <a key={subjectIndex} href={subject.link}>
+          {subject.title}
+        </a>
+      </>
+    ))}
+  </Card>
+))}
+
+
+
+	</TabItem>
+</Tabs>
+

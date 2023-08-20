@@ -1,0 +1,9 @@
+/* src/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.lite-youtube > iframe{
+    height: 100% !important;
+}
