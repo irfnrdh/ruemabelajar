@@ -1,0 +1,70 @@
+---
+title: Topik Belajar
+description: Kenapa kita harus belajar, walaupun tak lagi sekolah.
+slug: belajar/topik
+---
+
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+import subjectsData from '../../../data/subjects.json';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+<Tabs>
+	<TabItem label="Topik">
+:::tip[Work in progress]
+Beberapa topik sudah tersedia
+:::
+
+ <Card  title="Belajar HTML">
+
+ HTML adalah sintak dasar yang biasa digunakan untuk membuat halaman website. Manfaat belajar HTML memberi kemampuan untuk membuat dan mengelola konten web. Setelah menguasai HTML, peluang mencakup karir sebagai web developer, desainer web, atau content creator, serta kemampuan untuk berkontribusi dalam pengembangan situs web dan aplikasi.
+ 
+ ##### Pengenalan HTML 
+ - [Apa itu HTML?](#)
+ - [HTML Dasar](#)
+ - [Web Desain Dasar](#)
+
+ ##### HTML Dasar
+ - [HTML: Belajar Membuat Paragraf](#)
+ - [HTML: Belajar Membuat Judul](#)
+ - [HTML: Belajar Membuat Komentar](#)
+ - [HTML: Belajar Membuat Tabel](#)
+ - [HTML: Belajar membuat List](#)
+ - [HTML: Belajar membuat Unordered List](#)
+ - [HTML: Belajar membuat Ordered List](#)
+
+ ##### HTML Inline
+ ##### HTML Head
+ ##### HTML Form 
+ ##### HTML Semantik
+ ##### HTML, CSS & Javascript
+ ##### HTML Media & Grafis 
+ ##### HTML Miscellaneous
+ 
+ </Card>
+
+	</TabItem>
+	<TabItem label="Semua Katagori">
+	
+:::caution[Work in progress]
+Beberapa topik masih belum tersedia dan dalam pengerjaan
+:::
+
+{subjectsData.map((card, cardIndex) => (
+  <Card key={cardIndex} title={card.title}>
+    {card.subjects.map((subject, subjectIndex) => (
+      <>
+        {subjectIndex > 0 && ' | '}
+        <a key={subjectIndex} href={subject.link}>
+          {subject.title}
+        </a>
+      </>
+    ))}
+  </Card>
+))}
+
+
+
+	</TabItem>
+</Tabs>
+

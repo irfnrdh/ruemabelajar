@@ -17,11 +17,13 @@ export default defineConfig({
 
 		{
 			label: 'Mulai Belajar',
-			collapsed: true,
+		
 			autogenerate: {
-			  directory: 'html'
+			  directory: 'belajar'
 			},
 		},
+
+    // collapsed: true,
 	// {
     //   label: 'Mulai Belajar',
     //   link: '/mulai-belajar'
@@ -31,13 +33,13 @@ export default defineConfig({
     //   link: '/topik-belajar'
     // },
 	
-	{
-      label: 'Laravel',
-      collapsed: true,
-      autogenerate: {
-        directory: 'laravel'
-      }
-    },
+	// {
+  //     label: 'Laravel',
+  //     collapsed: true,
+  //     autogenerate: {
+  //       directory: 'laravel'
+  //     }
+  //   },
 
     // {
     // 	label: 'Topik',
@@ -60,10 +62,12 @@ export default defineConfig({
     // 	autogenerate: { directory: 'reference' },
     // },
 
-    {
-      label: 'Kontribusi',
-      link: '/kontribusi'
-    }]
+    // {
+    //   label: 'Kontribusi',
+    //   link: '/kontribusi'
+    // }
+  
+  ]
   }), tailwind({
 	// Disable the default base styles:
 	applyBaseStyles: false,
